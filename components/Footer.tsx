@@ -28,20 +28,20 @@ const Footer: React.FC = () => {
             <p>All rights reserved</p>
           </div>
           <div className="flex space-x-4">
-            <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary transition-all">
-              <Instagram size={18} />
+            <a href="#" aria-label="Follow us on Instagram" className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary transition-all">
+              <Instagram size={20} />
             </a>
-            <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary transition-all">
-              <Twitter size={18} />
+            <a href="#" aria-label="Follow us on Twitter" className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary transition-all">
+              <Twitter size={20} />
             </a>
-            <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary transition-all">
-              <Youtube size={18} />
+            <a href="#" aria-label="Subscribe to our YouTube channel" className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary transition-all">
+              <Youtube size={20} />
             </a>
           </div>
         </div>
 
         <div className="space-y-6">
-          <h4 className="text-xl font-bold">Company</h4>
+          <h3 className="text-xl font-bold">Company</h3>
           <ul className="space-y-4 opacity-70">
             <li><button onClick={() => scrollTo('about')} className="hover:text-primary transition-colors text-left w-full">About us</button></li>
             <li><button onClick={() => scrollTo('blog')} className="hover:text-primary transition-colors text-left w-full">Blog</button></li>
@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="space-y-6">
-          <h4 className="text-xl font-bold">Support</h4>
+          <h3 className="text-xl font-bold">Support</h3>
           <ul className="space-y-4 opacity-70">
             <li><a href="#" className="hover:text-primary transition-colors">Help center</a></li>
             <li><a href="#" className="hover:text-primary transition-colors">Terms of service</a></li>
@@ -59,15 +59,16 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="space-y-6">
-          <h4 className="text-xl font-bold">Stay up to date</h4>
+          <h3 className="text-xl font-bold">Stay up to date</h3>
           <div className="relative">
             <input
               type="email"
               placeholder="Your email address"
-              className="w-full bg-white/10 border-none rounded-lg px-4 py-3 text-white placeholder:text-white/40 focus:ring-1 focus:ring-primary outline-none transition-all"
+              aria-label="Email address for newsletter"
+              className="w-full bg-white/10 border-none rounded-lg px-4 py-4 pr-14 text-white placeholder:text-white/40 focus:ring-1 focus:ring-primary outline-none transition-all"
             />
-            <button className="absolute right-2 top-1/2 -translate-y-1/2 text-white/60 hover:text-white transition-colors">
-              <Send size={18} />
+            <button aria-label="Subscribe to newsletter" className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 flex items-center justify-center text-white/60 hover:text-white transition-colors rounded-lg hover:bg-white/10">
+              <Send size={20} />
             </button>
           </div>
         </div>

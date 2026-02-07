@@ -32,7 +32,7 @@ const Testimonial: React.FC = () => {
             "Nexora has completely transformed how we manage our member base. The automation features for renewals have saved us countless hours of manual work every month. Maecenas dignissim justo eget nulla rutrum molestie. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim."
           </p>
           <div>
-            <h4 className="text-xl font-bold text-primary">Tim Smith</h4>
+            <h3 className="text-xl font-bold text-primary">Tim Smith</h3>
             <p className="text-neutralGrey">British Dragon Boat Racing Association</p>
           </div>
 
