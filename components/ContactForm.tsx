@@ -14,7 +14,7 @@ const ContactForm: React.FC = () => {
 
         <Link
           href="/register"
-          className="inline-flex items-center gap-2 px-10 py-5 bg-primary text-white rounded-md font-bold text-lg hover:bg-opacity-90 transition-all shadow-xl shadow-primary/20 active:scale-95"
+          className="inline-flex items-center gap-2 px-10 py-5 bg-primary text-white rounded-md font-bold text-lg hover:brightness-105 hover:-translate-y-0.5 transition-all shadow-xl shadow-primary/20 hover:shadow-2xl active:scale-95"
         >
           Get a Demo <ArrowRight size={22} />
         </Link>

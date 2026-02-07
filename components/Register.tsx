@@ -25,7 +25,7 @@ const Register: React.FC = () => {
             </p>
             <button
               onClick={() => window.location.reload()}
-              className="px-8 py-3 bg-primary text-white rounded-md font-bold hover:bg-opacity-90 transition-all"
+              className="px-8 py-3 bg-primary text-white rounded-md font-bold hover:brightness-105 hover:-translate-y-0.5 transition-all shadow-md hover:shadow-lg active:scale-95"
             >
               Go to Dashboard
             </button>
@@ -119,7 +119,7 @@ const Register: React.FC = () => {
 
             <button
               type="submit"
-              className="w-full py-4 bg-primary text-white rounded-xl font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg shadow-primary/20 flex items-center justify-center gap-2"
+              className="w-full py-4 bg-primary text-white rounded-xl font-bold text-lg hover:brightness-105 hover:-translate-y-0.5 transition-all shadow-lg shadow-primary/20 hover:shadow-xl flex items-center justify-center gap-2 active:scale-[0.98]"
             >
               Create Account <ArrowRight size={22} />
             </button>

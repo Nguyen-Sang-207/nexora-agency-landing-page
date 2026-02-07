@@ -41,14 +41,14 @@ const InfoSection: React.FC<InfoSectionProps> = ({ id, title, description, image
             {actionLink ? (
               <Link
                 href={actionLink}
-                className="inline-block px-8 py-3 bg-primary text-white rounded-md font-medium hover:bg-opacity-90 transition-all shadow-md active:scale-95"
+                className="inline-block px-8 py-3 bg-primary text-white rounded-md font-medium hover:brightness-105 hover:-translate-y-0.5 transition-all shadow-md hover:shadow-lg active:scale-95"
               >
                 {buttonText}
               </Link>
             ) : (
               <button
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                className="px-8 py-3 bg-primary text-white rounded-md font-medium hover:bg-opacity-90 transition-all shadow-md active:scale-95"
+                className="px-8 py-3 bg-primary text-white rounded-md font-medium hover:brightness-105 hover:-translate-y-0.5 transition-all shadow-md hover:shadow-lg active:scale-95"
               >
                 {buttonText}
               </button>

@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
           </p>
           <Link
             href="/register"
-            className="inline-block px-10 py-4 bg-primary text-white rounded-md font-bold text-lg hover:bg-opacity-90 transition-all shadow-xl shadow-primary/20 active:scale-95"
+            className="inline-block px-10 py-4 bg-primary text-white rounded-md font-bold text-lg hover:brightness-105 hover:-translate-y-0.5 transition-all shadow-xl shadow-primary/20 hover:shadow-2xl active:scale-95"
           >
             Register Now
           </Link>

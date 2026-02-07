@@ -78,7 +78,7 @@ const Header: React.FC = () => {
         <div className="hidden lg:flex items-center">
           <Link
             href="/register"
-            className="px-6 py-2.5 bg-primary text-white rounded-md font-medium flex items-center gap-2 hover:bg-opacity-90 transition-all active:scale-95 shadow-lg shadow-primary/20"
+            className="px-6 py-2.5 bg-primary text-white rounded-md font-medium flex items-center gap-2 hover:brightness-105 hover:-translate-y-0.5 transition-all active:scale-95 shadow-lg shadow-primary/20 hover:shadow-xl"
           >
             Register Now <ArrowRight size={18} />
           </Link>
@@ -108,7 +108,7 @@ const Header: React.FC = () => {
           <Link
             href="/register"
             onClick={() => setIsOpen(false)}
-            className="px-8 py-4 bg-primary text-white rounded-md font-bold text-lg flex items-center gap-2"
+            className="px-8 py-4 bg-primary text-white rounded-md font-bold text-lg flex items-center gap-2 hover:brightness-105 hover:-translate-y-0.5 transition-all active:scale-95"
           >
             Register Now <ArrowRight size={22} />
           </Link>
